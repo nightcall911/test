@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: test2020
+
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Balonka888!
+
+
+  liquibase:
+    change-log: classpath:db/changelog-master.xml
+    enabled: true
+
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+
+
+
+
