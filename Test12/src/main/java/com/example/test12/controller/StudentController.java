@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 public class StudentController {
 
     @Autowired
-   private StudentService studentService;
+   private StudentService studentService; //pediks
 
     @GetMapping
     public StudentResponseDto get(@RequestParam int id) {
