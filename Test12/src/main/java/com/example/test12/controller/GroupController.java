@@ -23,7 +23,7 @@ public class GroupController {
 
     @GetMapping("/{id}")
     public GroupResponseDto getGroups(@RequestParam int id) {
-        return groupService.get(id); //zalupaosla
+        return groupService.get(id);
     }
 
 
