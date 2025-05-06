@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@RequestMapping(path = "/groups")
+@RequestMapping(path = "/groups")//zaaaaallluuupaaaa
 public class GroupController {
 
 
